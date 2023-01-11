@@ -1,0 +1,61 @@
+body {font-family: 'Do Hyeon', sans-serif}
+
+#panahScroll {
+    animation: scroll .75s linear infinite;
+}
+
+@keyframes scroll{
+    0%, 100%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(5px);
+    }
+}
+
+.btn-styles {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 18px;
+    font-size: larger;
+    transition: .5s ease;
+}
+
+.btn-styles:hover {
+    background-color: white;
+    color: black;
+
+}
+
+
+.hero-header {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 28px 80px;
+    font-size: larger;
+}
+
+.footer-header {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 28px 50px;
+    font-size: larger;
+    transition: .5s ease;
+}
+
+.footer-header:hover {
+    background-color: white;
+    color: black;
+}
+
+.header {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 28px 42px;
+    font-size: larger;
+}
